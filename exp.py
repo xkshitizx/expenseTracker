@@ -11,7 +11,7 @@ content={
 
 try:
     category=int(input("Choose a category:\n 1. Food \n 2. Clothing \n 3. Education\n 4. Travel\n"))
-except:
+except ValueError:
     raise ValueError("Input can only be integer")
 
 d=datetime.datetime.today()
