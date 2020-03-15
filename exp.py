@@ -1,27 +1,18 @@
-import datetime
-i=0
+categories=['food','travel','entertainment','education']
+expense_store={}
 
-content={
-    '{i}':{
-            "Category":'{cat}',
-            "Money":'{money}',
-            "Date":'{d}'
-        }
-}
+def getExpense():
+    pass
 
-try:
-    category=int(input("Choose a category:\n 1. Food \n 2. Clothing \n 3. Education\n 4. Travel\n"))
-except ValueError:
-    raise ValueError("Input can only be integer")
+def storeExpense():
+    pass
 
-d=datetime.datetime.today()
-money=input("how much did you spend??")
+def addToList():
+    pass
 
-content.update({
-    i:{
-            "Category":category,
-            "Money":money,
-            "Date":d
-        }
-})
-print(content)
+def showAll():
+    pass
+
+def main():
+    '''entry of the main program
+    
