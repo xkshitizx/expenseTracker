@@ -28,4 +28,4 @@ def showAll():
 
 def main():
     '''entry of the main program'''
-    
+    getExpense()
